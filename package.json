@@ -8,13 +8,13 @@
   },
   "preferGlobal": true,
   "bin": {
-    "cnpm": "./bin/cnpm",
-    "cnpm-check": "./bin/cnpm-check",
-    "cnpm-sync": "./bin/cnpm-sync",
-    "cnpm-web": "./bin/cnpm-web",
-    "cnpm-user": "./bin/cnpm-user",
-    "cnpm-doc": "./bin/cnpm-doc",
-    "cnpm-search": "./bin/cnpm-search"
+    "ccnpm": "./bin/cnpm",
+    "ccnpm-check": "./bin/cnpm-check",
+    "ccnpm-sync": "./bin/cnpm-sync",
+    "ccnpm-web": "./bin/cnpm-web",
+    "ccnpm-user": "./bin/cnpm-user",
+    "ccnpm-doc": "./bin/cnpm-doc",
+    "ccnpm-search": "./bin/cnpm-search"
   },
   "dependencies": {
     "auto-correct": "~1.0.0",
