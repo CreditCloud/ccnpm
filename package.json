@@ -1,5 +1,5 @@
 {
-  "name": "cnpm",
+  "name": "ccnpm",
   "version": "0.5.2",
   "description": "cnpm: npm client for cnpmjs.org",
   "main": "bin/cnpm",

@@ -26,9 +26,9 @@ if (process.platform === 'win32') {
 }
 
 var config = module.exports = {
-  cnpmHost: 'https://npm.taobao.org',
-  cnpmRegistry: 'https://registry.npm.taobao.org',
-  disturl: 'https://npm.taobao.org/dist', // download dist tarball for node-gyp
+  cnpmHost: 'http://node.creditcloud.com:7002',
+  cnpmRegistry: 'http://node.creditcloud.com:7001',
+  disturl: 'http://cnpmjs.org/dist', // download dist tarball for node-gyp
   cache: path.join(root, '.npm/.cache_cnpm'),  //cache folder name
   userconfig: path.join(root, '.cnpmrc')
 };
