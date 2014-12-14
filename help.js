@@ -16,7 +16,7 @@
 var config = require('./config');
 
 module.exports = function outputHelp(argv) {
-  var helpInfo = 'Usage: cnpm [option] <command>\n' +
+  var helpInfo = 'Usage: ccnpm [option] <command>\n' +
   'Help: http://cnpmjs.org/help/cnpm\n\n' +
   '  Extend command\n' +
   '    web                            open cnpm web (ex.: tnpm web)\n' +

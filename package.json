@@ -1,7 +1,7 @@
 {
-  "name": "cnpm",
+  "name": "ccnpm",
   "version": "2.0.1",
-  "description": "cnpm: npm client for cnpmjs.org",
+  "description": "ccnpm: npm client for cnpmjs.org",
   "main": "bin/cnpm",
   "scripts": {
     "test": "mocha test/*.test.js --timeout 60000",
@@ -9,13 +9,13 @@
   },
   "preferGlobal": true,
   "bin": {
-    "cnpm": "./bin/cnpm",
-    "cnpm-check": "./bin/cnpm-check",
-    "cnpm-sync": "./bin/cnpm-sync",
-    "cnpm-web": "./bin/cnpm-web",
-    "cnpm-user": "./bin/cnpm-user",
-    "cnpm-doc": "./bin/cnpm-doc",
-    "cnpm-search": "./bin/cnpm-search"
+    "ccnpm": "./bin/cnpm",
+    "ccnpm-check": "./bin/cnpm-check",
+    "ccnpm-sync": "./bin/cnpm-sync",
+    "ccnpm-web": "./bin/cnpm-web",
+    "ccnpm-user": "./bin/cnpm-user",
+    "ccnpm-doc": "./bin/cnpm-doc",
+    "ccnpm-search": "./bin/cnpm-search"
   },
   "dependencies": {
     "auto-correct": "~1.0.0",
@@ -37,17 +37,19 @@
     "mocha": "~2.1.0",
     "should": "~5.0.0"
   },
-  "homepage": "https://github.com/cnpm/cnpm",
+  "homepage": "https://github.com/CreditCloud/ccnpm",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cnpm/cnpm.git",
-    "web": "https://github.com/cnpm/cnpm"
+    "url": "git://github.com/CreditCloud/ccnpm.git",
+    "web": "https://github.com/CreditCloud/ccnpm"
   },
   "bugs": {
     "url": "https://github.com/cnpm/cnpm/issues",
     "email": "m@fengmk2.com"
   },
   "keywords": [
+    "CreditCloud",
+    "ccnpm",
     "cnpm"
   ],
   "engines": {

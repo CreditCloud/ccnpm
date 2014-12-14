@@ -20,17 +20,18 @@ var program = require('commander');
 
 var root;
 if (process.platform === 'win32') {
-  root = process.env.USERPROFILE || process.env.APPDATA || process.env.TMP || process.env.TEMP;
+    root = process.env.USERPROFILE || process.env.APPDATA || process.env.TMP || process.env
+        .TEMP;
 } else {
-  root = process.env.HOME || process.env.TMPDIR || '/tmp';
+    root = process.env.HOME || process.env.TMPDIR || '/tmp';
 }
 
 var config = module.exports = {
-  cnpmHost: 'http://npm.taobao.org',
-  cnpmRegistry: 'http://registry.npm.taobao.org',
-  disturl: 'http://npm.taobao.org/mirrors/node', // download dist tarball for node-gyp
-  iojsDisturl: 'http://npm.taobao.org/mirrors/iojs',
-  mirrorsUrl: 'http://npm.taobao.org/mirrors',
-  cache: path.join(root, '.cnpm'),  //cache folder name
-  userconfig: path.join(root, '.cnpmrc')
+    cnpmHost: 'http://npm.creditcloud.com',
+    cnpmRegistry: 'http://npmcc.creditcloud.com',
+    disturl: 'http://npm.taobao.org/mirrors/node', // download dist tarball for node-gyp
+    iojsDisturl: 'http://npm.taobao.org/mirrors/iojs',
+    // mirrorsUrl: 'http://npm.taobao.org/mirrors',
+    cache: path.join(root, '.ccnpm'), //cache folder name
+    userconfig: path.join(root, '.ccnpmrc')
 };
